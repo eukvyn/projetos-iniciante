@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background: #09d;
+    padding: 0.7rem 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 700;
+}
+
+.header nav a {
+    font-size: 18px;
+    color: white
+}
+
+.header nav a:last-child {
+    font-size: 12px;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    background-image: url("imagens/laptop-3-main.jpg") ;
+}
+
+.main h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.produtos h1 .produtos h2 {
+    font-size: 24px;
+    margin: 2em 0;
+    text-align: center;
+    color: #404040;
+} 
+
+.produtos {
+    padding-bottom: 8rem;
+}
+
+.produtos h1 {
+    text-align: center;
+    padding: 2rem ;
+}
+
+.produtos h2 {
+    margin-top: 0;
+    text-align: left;
+}
+
+.produtos ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.produtos p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+.produtos a {
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    background: #09d;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: 0.2s cubic-bezier(0.2, 1, 0.2, 1.4);
+}
+
+.produtos a:hover {
+    transform: scale(1.1);
+}
+/*
+.produtos a:hover {
+    animation: bounce 0.5s linear;
+}
+@keyframes bounce {
+    20% {
+        transform: translate3d(0, -6px, 0);
+    }
+    40% {
+        transform: translate3d(0, 0px, 0);
+    }
+    80% {
+        transform: translate3d(0, 2px, 0);
+    }
+    100% {
+        transform: translate3d(0, 0px, 0);
+    }
+}
+*/
